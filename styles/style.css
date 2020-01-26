@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+h1{
+    margin: 0;
+}
+
+div#top{
+    color: white;
+    background-image: url(../images/haircolor.jpg);
+    background-size: 100% auto;
+    line-height: 300px;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a:hover{
+    transform: scale(1.1);
+    border-radius: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a#book{
+    display: block;
+    float: right;
+    background-image: url(../images/badHair.jpg);
+    background-size: 100% auto;
+    line-height: 300px;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+}
+
+a#about{
+    display: block;
+    float: left;
+    background-image: url(../images/stars.jpg);
+    background-size: 100% auto;
+    line-height: 300px;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+}
+
+a#pictures{
+    display: block;
+    float: right;
+    background-image: url(../images/camera.jpeg);
+    background-size: 100% auto;
+    line-height: 300px;
+    text-align: center;
+    width: 50%;
+    background-size: 100% auto;
+    font-size: 30px;
+}
+
+a#reviews{
+    display: block;
+    float: left;
+    background: url(../images/people.jpg);
+    line-height: 300px;
+    text-align: center;
+    width: 50%;
+    background-size: 100% auto;
+    font-size: 30px;
+}
+
+a#prices{
+    display: block;
+    float: right;
+    background-image: url(../images/money.jpg);
+    line-height: 300px;
+    text-align: center;
+    width: 50%;
+    background-size: 100% 100%;
+    font-size: 30px;
+}
+
+div#bottom{
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    background-color: rgb(189, 189, 189);
+}
